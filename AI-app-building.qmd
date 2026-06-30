@@ -1,0 +1,78 @@
+---
+title: "Online learning"
+author: "Janno Vergara"
+format:
+    html:
+        code-overflow: wrap
+---
+
+# AI for App Building
+
+## Discover vibe coding
+
+- map out your workflow
+- see how vibe coding works
+- build your own app
+- vibe code responsibly
+- troubleshoot common issues
+
+What you'll gain:
+
+- Vibe coding experience
+- Confidence troubleshooting
+- Inspiration to build your own apps
+
+### Build with AI: A custom app to help you at work
+
+Optional step: Identify a task where an app could provide value
+
+If you haven’t already, complete the worksheet from a previous reading. 
+
+Once you’ve identified a task where an app could provide value, define what your app will take in, what it will do with that input, and how it will present the result. 
+
+Express it using this template: “My app takes [inputs] and does [process] to create [output] that helps me [goal].”
+
+If you need help, open a new tab and navigate to the Gemini app by entering the URL gemini.google.com. Then, try the following prompt in Gemini:
+
+```{r}
+#| output: false
+'I’m a [your role, e.g. social media manager]. I often find myself [task from the worksheet, e.g. drafting posts and creative visuals around holidays]. I want to build an app that makes this easier. It must be simple, standalone, and not dependent on external databases or systems. Suggest 3-5 ideas. Format each using this template: "My app takes {{inputs}} and does {{process}} to create {{output}} that helps me {{goal}}."'
+```
+
+Step 1: Describe the app you want to build
+
+In AI Studio, navigate to the “Build” tab. Paste the prompt below into the prompt field and replace the text in [brackets]. If you completed the previous optional step, use that output here. 
+
+```{r}
+#| output: false
+"I want to build an app that takes [inputs] and does [process] to create [output] that helps me [goal]."
+```
+
+AI Studio will generate the first version of your app. It might take a few minutes for the app to complete. Review the app and test it with your own data.
+
+Step 2: Iterate on your app
+In the same AI Studio build session iterate on your app. You can paste the prompt below into the chat field to add new features to make your app more useful or adjust what it can do. Replace the text in [brackets] with your own details.
+
+```{r}
+#| output: false
+"Add [element, e.g. a button] that [purpose, e.g. copies all the content so I can paste it into a spreadsheet]."
+```
+
+You can repeat this step as many times as you’d like to add more features to your app. Provide relevant instructions each time.
+
+Step 3: Change your app's visual style
+
+In the same AI Studio build session, paste the prompt below into the chat field to change the app's appearance. Replace the text in [brackets] with your own details.
+
+```{r}
+#| output: false
+"Change the [visual property, e.g. the color scheme] of the app to use [style description, e.g. shades of blue]."
+```
+
+You can repeat this step as many times as you’d like to make the app look like what you want. Provide relevant instructions or references each time.
+
+Step 4: Share your app
+
+To share your app, click the “Share” button. Flip the switch on “Publish your app” to make it available at the URL shown on this screen. You can share this URL with teammates so they can use your app.
+
+Once published, your app is public. Remember, you are responsible for the outputs it produces and should be prepared to maintain its functionality for your users.
