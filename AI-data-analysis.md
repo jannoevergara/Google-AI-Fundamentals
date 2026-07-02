@@ -29,8 +29,8 @@ What you'll gain:
 
 Step 1: Identify key presentation metrics
 
-```{r}
-#| output: false
+```
+
 
 "I work at an [your company type, e.g. apparel company].
 
@@ -47,8 +47,8 @@ Step 2: Anticipate leadership questions
 
 In the same chat with Gemini, paste the prompt below and replace the text in [brackets] with your own details.
 
-```{r}
-#| output: false
+```
+
 "What questions might our leadership team ask about [one of Gemini's suggested metrics from the previous step]?"
 ```
 
@@ -57,8 +57,8 @@ Read the potential questions Gemini suggests. As a next step, you can ask Gemini
 Optional: Get data from a specific data source
 If you know where to get your data but aren’t sure how to download it, you can prompt Gemini for help. Paste the prompt below and replace the text in [brackets] with your own details.
 
-```{r}
-#| output: false
+```
+
 "How do I export [data, e.g. website traffic data] from [data source, e.g. Google Analytics] so I can analyze it in [destination, e.g. a Google Sheet]?"
 ```
 
@@ -76,8 +76,8 @@ Step 1: Extract and format data from an image
 
 Click the “New chat” button to start a new chat with Gemini. Then, upload a source file. If you don’t have your own, you can use this sample screenshot. Then, paste the prompt below and replace the text in [brackets] with your own details.
 
-```{r}
-#| output: false
+```
+
 "Extract the [data you want, e.g. reviews] from this [source, e.g. screenshot] and turn them into a [data format, e.g. table] with the following columns [column headers, e.g. date, text, and # of stars]."
 ```
 
@@ -87,8 +87,8 @@ Step 2: Annotate your data
 
 In Google Sheets, create a new column. Give it a descriptive name (e.g. “customer sentiment”). In the first data cell of that new column, enter the formula below. Replace the text in [brackets] with your own details, ensuring you reference the cell containing the review text (e.g. B2).
 
-```{r}
-#| output: false
+```
+
 '=AI("Analyze the [data to classify, e.g. customer feedback] and classify it into [category list, e.g. Positive, Neutral, or Negative]", [cell with customer feedback text, e.g. B2])"'
 ```
 
@@ -103,8 +103,8 @@ What you'll gain:
 Step 1: Get a high-level data summary
 Import your data into a new Google Sheet. If you don’t have your own, you can use this  sample CSV. To open Gemini in Google Sheets, click the Gemini icon in the top-right corner. In the Gemini sidebar, paste the prompt below and replace the text in [brackets] with your own details.
 
-```{r}
-#| output: false
+```
+
 "This is data from [source of your data, e.g. my e-commerce website]. Provide the [first metric you want, e.g. total purchase revenue] and [second metric you want, e.g. total number of transactions].'
 ```
 
@@ -113,8 +113,8 @@ Review Gemini's summary. You can click "Analysis steps" to see the code Gemini g
 Step 2: Ask a question about your data
 In the same Google Sheet and Gemini sidebar, ask a question relevant to your dataset. For example:
 
-```{r}
-#| output: false
+```
+
 "What is the average revenue per session based on channel, regardless of device category?"
 ```
 
@@ -124,8 +124,8 @@ Step 3: Use your data to build a narrative
 Open a new tab and navigate to the Gemini app by entering the URL 
 gemini.google.com. Paste the prompt below and replace the text in [brackets] with your own details to understand the "why" behind your data.
 
-```{r}
-#| output: false
+```
+
 "You are an [persona, e.g. data analyst]. For an [your business type, e.g. e-commerce site], why might the [specific finding from Step 2]?"
 ```
 
@@ -134,8 +134,8 @@ Read Gemini's explanation. You will use this narrative to complement your data v
 Step 4: Create a data visualization
 Switch back to the Google Sheets tab. In the Gemini sidebar, paste the prompt below and replace the text in [brackets] with your own details.
 
-```{r}
-#| output: false
+```
+
 "Create a [chart type, e.g. bar chart] that shows [metric to visualize, e.g. average revenue per session] by [data column for chart axis, e.g. channel]."
 ```
 
@@ -151,8 +151,8 @@ Step 1: Identify your business levers
 
 Click the New chat button to start a new chat with Gemini. Then, paste the prompt below and replace the text in [brackets] with your own details. You can use this sample data or your own.
 
-```{r}
-#| output: false
+```
+
 "I’m a [your role] at [place of work e.g. an e-commerce business selling trousers]. My main goal is to [goal, e.g. increase my profit this year]. Acting as a business advisor, analyze my [type of data you upload to Gemini] and give me a list of the 3 most important changes I can make that would have the biggest impact on my goal."
 ```
 
@@ -162,8 +162,8 @@ Step 2: Build an interactive simulator
 
 Now, you’ll create an interactive simulator that lets you visualize the potential effect of the changes that Gemini suggested. In the same chat, select “Canvas” from the tools menu and paste the prompt below:
 
-```{r}
-#| output: false
+```
+
 "Based on those insights and my data, create an interactive [type of tool, e.g. profit calculator] for my [type of business]. Let me adjust [type of component e.g. toggles, sliders, switches] for each change to show their effect."
 ```
 
@@ -173,8 +173,8 @@ Step 3: Customize the design
 
 Change the design to fit your needs. For example, you could ask Gemini to adjust the visual design to match your company’s brand.
 
-```{r}
-#| output: false
+```
+
 "Can you give this [type of tool, e.g. profit calculator] more of a [type of design, color or theme]?"
 ```
 

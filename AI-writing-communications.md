@@ -43,8 +43,8 @@ What you'll gain:
 
 Step 1: Generate an action item report from a transcript. 
 
-```{r}
-#| output: false
+```
+
 "Acting as [a role that would excel at the task you want to accomplish, e.g. a senior project manager], generate a report based on the attached transcript.
 
 The report must have the following sections: [description of the sections you want in the report].
@@ -53,8 +53,8 @@ The report must have the following sections: [description of the sections you wa
 
 Step 2: Evaluate the report
 
-```{r}
-#| output: false
+```
+
 "Evaluate the report using these criteria:
 
 - [First criteria, e.g. Brevity]
@@ -77,8 +77,8 @@ What you'll gain:
 
 Step 1: Give Gemini a persona to get feedback 
 
-```{r}
-#| output: false
+```
+
 "I’m working on a [type of document, e.g. proposal or report] for [brief description of your project].
 
 Act as the [stakeholder you want feedback from and list their priorities], and review the document attached.
@@ -88,8 +88,8 @@ From your perspective, is there any information missing?"
 
 Step 2: Work through potential edits
 
-```{r}
-#| output: false
+```
+
 "You provided the following feedback about [feedback topic, e.g. the proposal is not detailed enough].
 
 I plan to resolve your feedback by [proposed resolution, e.g. including a timeline, budget, and resourcing].
@@ -99,8 +99,8 @@ Does that resolve the concerns, or are you looking for more?"
 
 Step 3: Draft a summary based on your new details
 
-```{r}
-#| output: false
+```
+
 "How would you write a [desired length, e.g. 2-sentence] summary of this plan for the [document, e.g. one-pager]?"
 ```
 
@@ -116,8 +116,8 @@ What you'll gain:
 
 Step 1: Extract key points from a source document
 
-```{r}
-#| output: false
+```
+
 "I’m a [your role, e.g. project manager] responsible for [the project, e.g. the launch] described in the document attached.
 
 I’m working on [a piece of communication, e.g. an email] announcing [the topic, e.g. the launch] to [the audience, e.g. the full company].
@@ -127,8 +127,8 @@ Pull [number] key points from the document that I can use in my message."
 
 Step 2: Identify stakeholder-specific points
 
-```{r}
-#| output: false
+```
+
 "Select some points specifically for two key stakeholders: [stakeholder 1, e.g. our CFO] and [stakeholder 2, e.g. our operations manager].
 
 Start by thinking about their priorities based on their roles before choosing the points I should highlight for each."
@@ -136,8 +136,8 @@ Start by thinking about their priorities based on their roles before choosing th
 
 Step 3: Draft a stakeholder email in Canvas
 
-```{r}
-#| output: false
+```
+
 "Draft the email to [stakeholder 1].
 
 Include the [Gemini's prioritized points from the previous step] as [format, e.g. bullets]."
@@ -145,8 +145,8 @@ Include the [Gemini's prioritized points from the previous step] as [format, e.g
 
 Step 4: Refine the draft using inline edits
 
-```{r}
-#| output: false
+```
+
 "Make this [desired change, e.g. shorter or more formal]."
 ```
 

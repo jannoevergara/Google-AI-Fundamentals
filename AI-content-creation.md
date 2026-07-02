@@ -36,8 +36,8 @@ What you'll gain:
 
 Step 1: Generate ideas for a visual marketing asset
 
-```{r}
-#| output: false
+```
+
 "I want to create a [visual marketing asset you need, e.g. logo, social media image].
 
 We offer [your company’s services or products] to [your target audience].
@@ -48,8 +48,8 @@ Give me a few ideas that range from [one style, e.g. logical] to [another style,
 
 Step 2: Generate an image
 
-```{r}
-#| output: false
+```
+
 "I like [your favorite option from Gemini’s output in the previous step].
 
 Generate an image of [your asset] in a [visual style, e.g. futuristic].
@@ -59,8 +59,8 @@ Make it [description of the overall feel, e.g. warm, professional] and [any addi
 
 Step 3: Generate a video
 
-```{r}
-#| output: false
+```
+
 "Attached is a [marketing visual asset, e.g. mascot for our company].
 
 Create a video for [channel where you want to distribute the video, e.g. social media] where [subject, action, and scene of your video, e.g. the logo fades in over footage of a busy office].
@@ -86,22 +86,22 @@ Click the Tools bar and select Canvas.
 
 Paste the prompt below into the input bar, editing the bracketed portions to match your needs:
 
-```{r}
-#| output: false
+```
+
 "Acting as an expert [type of expertise you need, ex: designer] help me create a text-only slide deck based on [document you have supplied, ex: new refund policy]."
 ```
 
 If you notice Gemini hallucinated or missed a key detail from your uploaded document, you can correct Gemini with the following prompt: 
 
-```{r}
-#| output: false
+```
+
 "You missed [specific detail] from the attached source document, please add it to [slide number]."
 ```
 
 Step 2: Edit your slides
 
-```{r}
-#| output: false
+```
+
 "Update the last slide to say: [edit you want Gemini to make].
 
 Or:
@@ -115,8 +115,8 @@ Add a column to the table on Slide 5 that includes [specific data]."
 
 Step 3: Customize for different audiences
 
-```{r}
-#| output: false
+```
+
 "Change the slide deck to be for [new type deck you need, ex: an internal onboarding deck for new hires].
 
 Use only the information provided in the slides."
@@ -134,8 +134,8 @@ What you'll gain:
 
 Step 1: Edit slide text
 
-```{r}
-#| output: false
+```
+
 "I’d like to make this slide more readable.
 
 Write [number, e.g. three] sets of short headlines and descriptions, that can replace the text on this slide."
@@ -143,8 +143,8 @@ Write [number, e.g. three] sets of short headlines and descriptions, that can re
 
 Step 2: Generate images for your key points
 
-```{r}
-#| output: false
+```
+
 "Generate an image to illustrate [a key point from your slide].
 
 Make it [desired image color] and the background [desired background color]."
@@ -152,8 +152,8 @@ Make it [desired image color] and the background [desired background color]."
 
 Review the generated images and insert your favorite one onto the slide. To generate more images, paste the following prompt, referencing the option you just selected to maintain a consistent style.
 
-```{r}
-#| output: false
+```
+
 "I like the [your preferred option from the previous step, e.g. top-right] option best.
 
 Create another illustration in the same style, this time depicting a [subject for the next key point on your slide]."
@@ -171,15 +171,15 @@ What you'll gain:
 
 Step 1: Get design guidelines
 
-```{r}
-#| output: false
+```
+
 "What are some guidelines that should be followed when it comes to designing [type of creative asset, e.g. flyers] for a [type of organization, e.g. IT consulting business]?"
 ```
 
 Step 2: Get specific feedback on your asset
 
-```{r}
-#| output: false
+```
+
 "Review this [type of creative asset, e.g. flyer] for a [type of organization e.g. an IT consulting business].
 
 The goal is to [primary goal of the asset, e.g. get more leads from small business owners].
@@ -191,7 +191,7 @@ Highlight weaknesses and suggest specific improvements."
 
 Step 3: Draft a feedback note
 
-```{r}
-#| output: false
+```
+
 "Write a short note to share the feedback recommendations with the [role of the person receiving the feedback, e.g. designer of this flyer]."
 ```

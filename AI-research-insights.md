@@ -27,21 +27,21 @@ litmus test for how things are actually landing
 
 Step 1: Get initial market trend ideas
 
-```{r}
-#| output: false
+```
+
 "I'm planning a [new product or service, e.g. new paint line] for my company. What [information, e.g. risks or market trends] should I be aware of?"
 ```
 
 Step 2: Start a Deep Research project
 
-```{r}
-#| output: false
+```
+
 "I'm planning a [new product or service, e.g. new paint line] for my company. Research [specific market trend provided by Gemini in the previous step]."
 ```
 
 Step 3: Refine the Research Plan
-```{r}
-#| output: false
+```
+
 "Focus on [specific aspect of the topic you’re researching], use only sources from [desired time frame, e.g. the last 2 years], and be sure to include [specific data points, e.g. data on consumer adoption]."
 ```
 
@@ -55,15 +55,15 @@ Step 5: Generate an infographic
 
 Step 1: Generate a summary of your sources
 
-```{r}
-#| output: false
+```
+
 "Summarize the key learnings from these sources in [desired length, e.g. one page]."
 ```
 
 Step 2: Ask questions about your sources
 
-```{r}
-#| output: false
+```
+
 "Do any of these sources talk about how to test different color choices in design?"
 ```
 
@@ -84,8 +84,8 @@ What you'll gain:
 
 Step 1: Explore a persona
 
-```{r}
-#| output: false
+```
+
 "What are the key characteristics of [an expert role relevant to your work, e.g. a highly competent interior designer]?"
 ```
 Read Gemini’s response, then select and copy it. You will use the response and its insights to create your Gem.
@@ -98,8 +98,8 @@ First, give your Gem a name (e.g. Interior Designer) and below add a description
 
 Then, paste the text below into the instructions box, replacing the text in [brackets] with Gemini’s output from Step 1.
 
-```{r}
-#| output: false
+```
+
 "You are [expert role, e.g. a highly competent interior designer].
 
 Your key characteristics include: [characteristics from Gemini’s output in the previous step]. I am a [your role].
@@ -111,8 +111,8 @@ Stay in character throughout the conversation."
 
 Step 3: Ask your custom Gem questions
 
-```{r}
-#| output: false
+```
+
 "What are the top factors to consider in selecting a [product or service offered by your company]?"
 ```
 

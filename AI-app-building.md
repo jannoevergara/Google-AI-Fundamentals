@@ -34,8 +34,8 @@ Express it using this template: “My app takes [inputs] and does [process] to c
 
 If you need help, open a new tab and navigate to the Gemini app by entering the URL gemini.google.com. Then, try the following prompt in Gemini:
 
-```{r}
-#| output: false
+```
+
 'I’m a [your role, e.g. social media manager]. I often find myself [task from the worksheet, e.g. drafting posts and creative visuals around holidays]. I want to build an app that makes this easier. It must be simple, standalone, and not dependent on external databases or systems. Suggest 3-5 ideas. Format each using this template: "My app takes {{inputs}} and does {{process}} to create {{output}} that helps me {{goal}}."'
 ```
 
@@ -43,8 +43,8 @@ Step 1: Describe the app you want to build
 
 In AI Studio, navigate to the “Build” tab. Paste the prompt below into the prompt field and replace the text in [brackets]. If you completed the previous optional step, use that output here. 
 
-```{r}
-#| output: false
+```
+
 "I want to build an app that takes [inputs] and does [process] to create [output] that helps me [goal]."
 ```
 
@@ -53,8 +53,8 @@ AI Studio will generate the first version of your app. It might take a few minut
 Step 2: Iterate on your app
 In the same AI Studio build session iterate on your app. You can paste the prompt below into the chat field to add new features to make your app more useful or adjust what it can do. Replace the text in [brackets] with your own details.
 
-```{r}
-#| output: false
+```
+
 "Add [element, e.g. a button] that [purpose, e.g. copies all the content so I can paste it into a spreadsheet]."
 ```
 
@@ -64,8 +64,8 @@ Step 3: Change your app's visual style
 
 In the same AI Studio build session, paste the prompt below into the chat field to change the app's appearance. Replace the text in [brackets] with your own details.
 
-```{r}
-#| output: false
+```
+
 "Change the [visual property, e.g. the color scheme] of the app to use [style description, e.g. shades of blue]."
 ```
 

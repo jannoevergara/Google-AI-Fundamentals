@@ -25,8 +25,8 @@ Train the mind to use AI get over the hump of most gnarly problem ("ugh")
 
 Step 1: Brainstorm presentation structures
 
-```{r}
-#| output: false
+```
+
 
 "I am preparing a presentation on [your topic, e.g. AI].
 
@@ -37,8 +37,8 @@ Help me brainstorm [number] compelling ways to structure my presentation for an 
 
 Step 2: Find a "hook" statistic
 
-```{r}
-#| output: false
+```
+
 "I like [your favorite option from step 1, e.g. the value of AI at work]. Now I need a powerful hook for my introduction.
 
 What's a surprising statistic about [your topic from step 1, e.g. the value of AI at work]?"
@@ -46,8 +46,8 @@ What's a surprising statistic about [your topic from step 1, e.g. the value of A
 
 Step 3: Draft your first paragraph
 
-```{r}
-#| output: false
+```
+
 "I like [your favorite hook from the previous step].
 
 Using that, draft an opening paragraph for my presentation.
@@ -109,8 +109,8 @@ After being trained with machine learning, AI can then identify zebras from phot
 
 Step 1: Define your initial task
 
-```{r}
-#| output: false
+```
+
 
 "I want to learn a new skill to [your high-level goal, e.g. advance my career, get a new job], but I'm not sure where to start.
 
@@ -119,16 +119,16 @@ Help me brainstorm some ideas."
 
 Step 2: Use meta-prompting to refine the results
 
-```{r}
-#| output: false
+```
+
 
 "What questions can I answer to help you tailor your suggestions?"
 ```
 
 Step 3: Add context about yourself
 
-```{r}
-#| output: false
+```
+
 
 "Here are some more details about me:
 
@@ -145,8 +145,8 @@ Based on this information, suggest [number, e.g. three] skills that would be rel
 
 Step 4: Define a persona
 
-```{r}
-#| output: false
+```
+
 
 "Now, act as a [specific persona, e.g. career coach or hiring manager].
 
@@ -155,8 +155,8 @@ Which of the skills above would you recommend I focus on first? Explain your rea
 
 Step 5: Decide on next steps
 
-```{r}
-#| output: false
+```
+
 
 "Suggest [number, e.g. three] actions I can take [timeframe, e.g. this week] to start learning that skill.
 
@@ -172,8 +172,8 @@ Prompting Trick: Please ask me any follow-up questions before you continue doing
 
 Give AI a process to follow
 
-```{r}
-#| output: false
+```
+
 
 "Think step-by-step.
 
@@ -181,8 +181,8 @@ First, [action 1]. Second, [action 2]. Finally, [action 3]."
 ```
 
 Define the audience and tone
-```{r}
-#| output: false
+```
+
 
 "Write this for an audience of [audience type, e.g., executives].
 
@@ -190,8 +190,8 @@ The tone should be [tone, e.g., professional]."
 ```
 
 Set hard constraints
-```{r}
-#| output: false
+```
+
 
 "Write a one paragraph summary.
 
@@ -199,8 +199,8 @@ Focus exclusively on [topic A, e.g. revenue] and do not mention [topic B, e.g., 
 ```
 
 Request a critique
-```{r}
-#| output: false
+```
+
 
 "Critique this text from the perspective of a [role, e.g., potential customer].
 
@@ -208,8 +208,8 @@ Play devil's advocate. What is the strongest counterargument to this?"
 ```
 
 Generate alternatives
-```{r}
-#| output: false
+```
+
 
 "Give me 3 different versions of this.
 
@@ -217,8 +217,8 @@ What's an alternative approach to solving this problem?"
 ```
 
 Deepen or expand on the initial output
-```{r}
-#| output: false
+```
+
 
 "Elaborate on point 2.
 
@@ -228,8 +228,8 @@ Provide more detail and specific examples for the section about [section]."
 ### Manage more complex tasks with prompt chaining
 Example: vacation to Paris
 
-```{r}
-#| output: false
+```
+
 
 "Prompt 1: I'm going to Paris for 3 days. I like art, historical sites, and parks. Suggest a few well-known places I could visit on my trip.
 
@@ -248,8 +248,8 @@ Benefits:
 
 Step 1: Brainstorm options
 
-```{r}
-#| output: false
+```
+
 
 "I want to expand my [company description, e.g. painting company]'s service offerings.
 
@@ -260,16 +260,16 @@ Keep in mind: [context and constraints, e.g. we have a team of 4 painters and ti
 
 Step 2: Evaluate the options
 
-```{r}
-#| output: false
+```
+
 
 "Which of these can we launch within 6 months?"
 ```
 
 Step 3: Create an action plan
 
-```{r}
-#| output: false
+```
+
 
 "If I want to move forward with [1 option from Gemini’s response in the previous step], what tasks should I complete this week?"
 ```
@@ -288,8 +288,8 @@ Step 1: Brainstorm ideas for your image
 
 Social media post or a slide in a presentation
 
-```{r}
-#| output: false
+```
+
 
 "I need some ideas for a [type of image, e.g. concert poster, social media post, or presentation slide] about [what the image is about, e.g. a music band].
 
@@ -308,8 +308,8 @@ Reference Image: I have attached an image for you to use as a reference. Please 
 
 Step 2: Draft text for your image
 
-```{r}
-#| output: false
+```
+
 
 "Generate 3 options for text for a [type of project, e.g. poster, social media post, or presentation slide] about [the main subject or topic].
 
@@ -318,8 +318,8 @@ For context, [additional details or key information]. The tone of the writing sh
 
 Step 3: Generate the image by combining your ideas
 
-```{r}
-#| output: false
+```
+
 
 "Based on the [chosen creative concept] and the text '[insert your favorite headline/text here]', generate a detailed image.
 
@@ -330,8 +330,8 @@ Ensure the composition includes [layout requirements, e.g. plenty of empty space
 
 Step 4: Edit the image
 
-```{r}
-#| output: false
+```
+
 
 "Changing the Composition: 
 

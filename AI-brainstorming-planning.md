@@ -31,15 +31,13 @@ Gain
 
 Step 1: Brainstorm new product ideas
 
-```{r}
-#| output: false
+```
 "You are a [persona, e.g. marketing expert] in the [industry, e.g. audio industry]. My company is developing a [new product, e.g. new line of premium headphones]. Help me brainstorm [items to brainstorm, e.g. accessories or add-ons] that I could [purpose, e.g. bundle with this product]."
 ```
 
 Step 2: Create a cost-benefit analysis table
 
-```{r}
-#| output: false
+```
 "Perform a [type of analysis, e.g. cost-benefit analysis] for each of these ideas. Format your response as a table with the following columns:
 
 - [Column 1 name, e.g. Idea]
@@ -47,19 +45,17 @@ Step 2: Create a cost-benefit analysis table
 - [Column 2 name, e.g. Cost (low/medium/high)]
 
 - [Column 3 name, e.g. Benefit (low/medium/high)]"
-```
 
+```
 Step 3: Research industry trends
 
-```{r}
-#| output: false
+```
 "What are some current industry trends around [your product or industry]? I'd like to factor those insights into my decision."
 ```
 
 Step 4: Schedule a recurring analysis
 
-```{r}
-#| output: false
+```
 "Run this analysis [desired frequency, e.g. once a week] so I can stay up to date on these trends."
 ```
 
@@ -70,22 +66,19 @@ Feedback. Why is this a bad idea.
 
 Step 1: Identify missing project dependencies
 
-```{r}
-#| output: false
+```
 "You are a [persona, e.g. project manager]. My company is launching a [product, service or initiative]. I've attached [document 1, e.g. a launch memo] and [document 2, e.g. a launch work-back schedule]. Are there any dependencies missing from the plan?"
 ```
 
 Step 2: Assess the risk of missing dependencies
 
-```{r}
-#| output: false
+```
 "Let's focus on [a missing dependency from Gemini’s previous response]. How do they affect the [overall project goal, e.g. the launch]?"
 ```
 
 Step 3: Generate an updated project timeline
 
-```{r}
-#| output: false
+```
 "Create a timeline listing key milestones for [the missing dependency from the previous step]. Flag what might be missing from my current plan."
 ```
 
@@ -101,8 +94,7 @@ What you'll gain:
 
 Step 1: Ask questions about your project documents
 
-```{r}
-#| output: false
+```
 "When are we starting [key phase in your project, e.g., full-scale packaging production]?"
 ```
 
